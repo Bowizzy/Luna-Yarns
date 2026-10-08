@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="LUNA YARNS digital showroom. Nightwear for individuals who make a ritual out of rest.">
+    <title>LUNA YARNS | Digital Showroom</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header" data-header>
+      <a class="brand-mark" href="#top" aria-label="LUNA YARNS home">LUNA YARNS</a>
+      <nav class="desktop-nav" aria-label="Primary navigation">
+        <a href="#collection">Collection</a>
+        <a href="#world">Our World</a>
+        <a href="#promise">Our Promise</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" data-menu-toggle>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="mobile-nav" aria-label="Mobile navigation" data-mobile-nav>
+        <a href="#collection">Collection</a>
+        <a href="#world">Our World</a>
+        <a href="#promise">Our Promise</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero section-dark" aria-labelledby="hero-title">
+        <div class="hero-media" aria-hidden="true">
+          <img src="project-12.jpeg" alt="" fetchpriority="high">
+        </div>
+        <div class="hero-shade"></div>
+        <div class="hero-content reveal-on-load">
+          <p class="kicker">Digital showroom</p>
+          <h1 id="hero-title">LUNA YARNS</h1>
+          <p class="hero-tagline">Nightwear for individuals who make a ritual out of rest.</p>
+          <a class="button button-light" href="#collection">Explore Collection</a>
+        </div>
+        <a class="scroll-cue" href="#intro" aria-label="Scroll to brand introduction">Scroll</a>
+      </section>
+
+      <section class="intro section-light reveal" id="intro" aria-labelledby="intro-title">
+        <div class="intro-copy">
+          <p class="kicker">Where comfort meets quiet luxury</p>
+          <h2 id="intro-title">Bedtime should never feel ordinary.</h2>
+          <p>Luna Yarns is where comfort meets quiet luxury. Inspired by moonlight and the softness of the night, we create beautiful nightwear for slow evenings, peaceful mornings, and everything in between.</p>
+        </div>
+        <figure class="intro-image image-frame parallax-frame">
+          <img src="project-05.jpeg" alt="Model wearing Product 05 purple nightwear set" loading="lazy">
+        </figure>
+        <div class="intro-note">
+          <p>Soft fabrics. Pretty silhouettes. Cosy nights.</p>
+        </div>
+      </section>
+
+      <section class="featured section-warm reveal" aria-labelledby="featured-title">
+        <div class="section-heading split-heading">
+          <div>
+            <p class="kicker">Featured collection</p>
+            <h2 id="featured-title">A slow browse through nightfall.</h2>
+          </div>
+          <div class="carousel-controls" aria-label="Featured carousel controls">
+            <button type="button" class="icon-button" data-carousel-prev aria-label="Previous product">&larr;</button>
+            <button type="button" class="icon-button" data-carousel-next aria-label="Next product">&rarr;</button>
+          </div>
+        </div>
+        <div class="featured-carousel" data-featured-carousel tabindex="0" aria-label="Featured Luna Yarns products"></div>
+      </section>
+
+      <section class="collection section-light" id="collection" aria-labelledby="collection-title">
+        <div class="section-heading reveal">
+          <p class="kicker">Full collection</p>
+          <h2 id="collection-title">Every piece in the showroom.</h2>
+        </div>
+        <div class="product-grid" data-product-grid></div>
+      </section>
+
+      <section class="world section-dark reveal" id="world" aria-labelledby="world-title">
+        <figure class="world-image parallax-frame">
+          <img src="project-10.jpeg" alt="Model wearing Product 10 nightwear" loading="lazy">
+        </figure>
+        <div class="world-copy">
+          <p class="kicker">Our world</p>
+          <h2 id="world-title">Soft fabrics. Pretty silhouettes. Cosy nights.</h2>
+          <p>Luna Yarns is for the moments when you slow down, come home to yourself, and let the world wait.</p>
+          <p>Not just nightwear. A mood. A moment. A feeling.</p>
+        </div>
+      </section>
+
+      <section class="promise section-warm reveal" id="promise" aria-labelledby="promise-title">
+        <p class="kicker">Our promise</p>
+        <h2 id="promise-title">We make nightwear that feels as good as it looks so you can sleep, lounge, dream, and simply be beautiful.</h2>
+      </section>
+
+      <section class="brand-moment section-dark" aria-label="Luna Yarns brand moment">
+        <div class="moment-line reveal">WEAR THE NIGHT.</div>
+        <div class="moment-line reveal">ROMANCE THE ORDINARY.</div>
+        <div class="moment-line reveal">REST BEAUTIFULLY.</div>
+      </section>
+
+      <section class="final-cta section-light reveal" id="contact" aria-labelledby="cta-title">
+        <p class="kicker">Private orders</p>
+        <h2 id="cta-title">Ready to romanticise your nights?</h2>
+        <div class="contact-actions" aria-label="Luna Yarns contact options">
+          <a class="button button-dark" data-general-whatsapp href="#footer">Order on WhatsApp</a>
+          <a class="button button-ghost" href="https://www.instagram.com/luna.yarns/" target="_blank" rel="noopener">Instagram @luna.yarns</a>
+        </div>
+        <p class="contact-line">WhatsApp / Phone: <a data-footer-whatsapp href="#footer">08118319423</a></p>
+      </section>
+    </main>
+
+    <footer class="site-footer" id="footer">
+      <div>
+        <h2>LUNA YARNS</h2>
+        <p>Wear the night. Romance the ordinary. Rest beautifully.</p>
+      </div>
+      <address>
+        <a data-footer-whatsapp href="#footer">WhatsApp 08118319423</a>
+        <a href="https://www.instagram.com/luna.yarns/" target="_blank" rel="noopener">Instagram @luna.yarns</a>
+      </address>
+    </footer>
+
+    <div class="modal" data-modal aria-hidden="true">
+      <button class="modal-backdrop" type="button" aria-label="Close product details" data-modal-close></button>
+      <article class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="modal-title" tabindex="-1">
+        <button class="modal-close" type="button" aria-label="Close product details" data-modal-close>&times;</button>
+        <div class="modal-image-wrap">
+          <img data-modal-image alt="">
+        </div>
+        <div class="modal-copy">
+          <p class="kicker" data-modal-code></p>
+          <h2 id="modal-title" data-modal-name></h2>
+          <p class="modal-price" data-modal-price></p>
+          <p class="modal-description" data-modal-description hidden></p>
+          <div class="modal-sizes" data-modal-sizes hidden></div>
+          <a class="button button-dark" data-modal-whatsapp href="#footer">Order on WhatsApp</a>
+        </div>
+      </article>
+    </div>
+
+    <script src="app.js" defer></script>
+  </body>
+</html>
